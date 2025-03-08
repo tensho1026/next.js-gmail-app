@@ -2,7 +2,7 @@ import React from 'react'
 
 function yolo() {
   return (
-    <div>yolo</div>
+    <div>yolo!!!!</div>
   )
 }
 
