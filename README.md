@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📩 Next.js Gmail Contact Form
 
-## Getting Started
+🚀 **デプロイ URL:** [https://next-js-gmail-app.vercel.app/](https://next-js-gmail-app.vercel.app/)
 
-First, run the development server:
+## 📝 概要
+このプロジェクトは、**Next.js と Nodemailer を使用したお問い合わせフォーム** です。  
+フォームに入力された内容を Gmail を経由して送信することができます。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔧 使用技術
+- **フレームワーク:** Next.js (App Router)
+- **メール送信:** Nodemailer
+- **言語:** TypeScript
+- **スタイリング:** Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 機能
+✅ フォーム入力（名前 / メールアドレス / メッセージ）  
+✅ バリデーション（未入力チェック）  
+✅ **Nodemailer を使ったメール送信**  
+✅ **環境変数で Gmail 設定を管理**  
+✅ **レスポンシブデザイン対応**  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![image](https://github.com/user-attachments/assets/862d3f1b-9f25-409d-99a7-acb8b6f9e68c)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 ローカル環境での実行方法
+1. **リポジトリをクローン**
+   ```sh
+   git clone https://github.com/あなたのGitHub名/next.js-gmail-app.git
+   cd next.js-gmail-app
