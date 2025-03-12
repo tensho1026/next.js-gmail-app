@@ -10,7 +10,7 @@ export default function Home() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    let data = {
+    const data = {
       name: nameRef.current?.value,
       email: emailRef.current?.value,
       message: messageRef.current?.value,
